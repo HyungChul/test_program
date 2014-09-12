@@ -2,7 +2,7 @@
 var sys = require('sys');
 var http = require('http');
 
-var count = 0;
+var count = 5;
 
 http.createServer(function(request, response){
 	count++;
